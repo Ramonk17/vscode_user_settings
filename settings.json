@@ -189,5 +189,6 @@
   "workbench.editor.empty.hint": "hidden",
   "vscodeGoogleTranslate.preferredLanguage": "Russian",
   "prettier.printWidth": 100,
-  "workbench.colorTheme": "Catppuccin Macchiato"
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "smartClicks.rules": {}
 }

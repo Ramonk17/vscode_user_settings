@@ -85,5 +85,14 @@
     "key": "cmd+down",
     "command": "-explorer.openAndPassFocus",
     "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+b",
+    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
   }
 ]

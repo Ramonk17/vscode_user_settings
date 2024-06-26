@@ -1,7 +1,16 @@
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "ctrl+shift+cmd+left",
+    "key": "cmd+m",
+    "command": "explorer.openAndPassFocus",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "cmd+m",
+    "command": "workbench.explorer.fileView.focus"
+  },
+  {
+    "key": "cmd+shift+w",
     "command": "editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
   },
@@ -58,5 +67,23 @@
     "key": "ctrl+shift+left",
     "command": "-editor.action.smartSelect.shrink",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "cmd+m",
+    "command": "workbench.explorer.fileView.focus"
+  },
+  {
+    "key": "cmd+m",
+    "command": "explorer.openAndPassFocus",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-explorer.openAndPassFocus",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsFolder && !inputFocus"
   }
 ]

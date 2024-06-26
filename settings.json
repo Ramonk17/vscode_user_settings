@@ -40,11 +40,15 @@
   "editor.cursorSmoothCaretAnimation": "explicit",
 
   // Font
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.lineHeight": 30,
   "editor.fontLigatures": true,
-  "editor.inlayHints.fontFamily": "PragmataPro",
-  "editor.fontFamily": "Monaco, iosevka, 'Courier New', Fira Code, Menlo, monospace",
+  // "editor.inlayHints.fontFamily": "PragmataPro",
+  "editor.inlayHints.fontFamily": "Iosevka SS03 Light",
+  // "editor.fontFamily": "Iosevka Term SS03, Monaco, 'Courier New', Fira Code, Menlo, monospace",
+  "editor.fontFamily": "Monaco, Iosevka SS03 Light, Fira Code, Iosevka Term SS03, Cascadia Code",
+  "markdown.preview.fontFamily": "Iosevka SS03 Light",
+  "debug.console.fontFamily": "Fira Code, Iosevka SS03 Light",
 
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -189,6 +193,6 @@
   "workbench.editor.empty.hint": "hidden",
   "vscodeGoogleTranslate.preferredLanguage": "Russian",
   "prettier.printWidth": 100,
-  "workbench.colorTheme": "Catppuccin Macchiato",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "smartClicks.rules": {}
 }
